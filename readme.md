@@ -4,7 +4,7 @@
 
 [Bash City](http://bash.city/blog/post/laravel-on-aws-ebcli)
 
-You can clone this repo in order to deploy this blow to AWS using their Load Balancers and SSL certificates.
+You can clone this repo in order to deploy this blog to AWS using their Load Balancers and SSL certificates.
 
 Create an application with load balancing
 ```
