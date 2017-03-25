@@ -1,3 +1,21 @@
+## Laravel on AWS
+
+*This project was modified to work with AWS and is being used as an example for others to follow*
+
+[Bash City](http://bash.city/blog/post/laravel-on-aws-ebcli)
+
+You can clone this repo in order to deploy this blow to AWS using their Load Balancers and SSL certificates.
+
+Create an application with load balancing
+```
+$ eb create bash-city-prod --database --database.user username --database.password password --database.i db.t2.micro --database.engine mysql --envvars APP_KEY=$APP_KEY,RDS_HOSTNAME=$RDS_HOSTNAME,RDS_PASSWORD=$RDS_PASSWORD,RDS_USERNAME=$RDS_USERNAME,RDS_DB_NAME=$RDS_DB_NAME
+```
+
+The instructions provided by Amazon for this write up.
+[SSL  Elasticbeanstalk](http://docs.aws.amazon.com/elasticbeanstalk/latest/dg/configuring-https-elb.html)
+
+
+
 <p align="center">
     <img src="https://raw.githubusercontent.com/cnvs/assets/master/logo.png" width="240">
 </p>
