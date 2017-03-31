@@ -1,11 +1,11 @@
 branch-defaults:
   master:
-    environment: null
+    environment: bash-city
     group_suffix: null
 environment-defaults:
   bash-city:
-    branch: master
-    repository: bash-city
+    branch: null
+    repository: null
 global:
   application_name: bash-city
   branch: master
