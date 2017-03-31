@@ -8,7 +8,7 @@ You can clone this repo in order to deploy this blog to AWS using their Load Bal
 
 Create an application with load balancing
 ```
-$ eb create bash-city-prod --database --database.user username --database.password password --database.i db.t2.micro --database.engine mysql --envvars APP_KEY=$APP_KEY,RDS_HOSTNAME=$RDS_HOSTNAME,RDS_PASSWORD=$RDS_PASSWORD,RDS_USERNAME=$RDS_USERNAME,RDS_DB_NAME=$RDS_DB_NAME
+$ eb create project-lb-ssl --database --database.user username --database.password password --database.i db.t2.micro --database.engine mysql --envvars APP_KEY=$APP_KEY,RDS_HOSTNAME=$RDS_HOSTNAME,RDS_PASSWORD=$RDS_PASSWORD,RDS_USERNAME=$RDS_USERNAME,RDS_DB_NAME=$RDS_DB_NAME
 ```
 
 The instructions provided by Amazon for this write up.
